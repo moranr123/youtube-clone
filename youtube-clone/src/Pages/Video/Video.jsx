@@ -3,8 +3,8 @@ import "./Video.css"; // Assuming you have a CSS file for styling
 
 const Video = () => {
   return (
-    <div className="Video">
-      <h1>Video Page</h1>
+    <div className="play-container">
+      
     </div>
   );
 }
