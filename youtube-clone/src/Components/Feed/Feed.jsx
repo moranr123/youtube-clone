@@ -11,12 +11,57 @@ import thumbnail8 from '../../assets/thumbnail8.png'
 
 const Feed = () => {
     return(
-            <div className='card'>
-                <img src={thumbnail1} alt="" />
-                <h2>Best Channel to learn coding that help you to be a web developer</h2>
-                <h3>GreatStack</h3>
-                <p>15kviews</p>
+            <div className="feed">
+                <div className='card'>
+                    <img src={thumbnail1} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail2} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail3} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail4} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail5} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail6} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail7} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
+                <div className='card'>
+                    <img src={thumbnail8} alt="" />
+                    <h2>Best Channel to learn coding that help you to be a web developer</h2>
+                    <h3>GreatStack</h3>
+                    <p>15kviews &bull; 2 days ago</p>
+                </div>
             </div>
+           
     )
 }
 
